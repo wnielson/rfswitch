@@ -3,7 +3,7 @@
  *  @author Weston Nielson <wnielson@github>
  *
  */
-
+#ifdef HAVE_PORTAUDIO_H
 #include "Sampler.h"
 #include "record.h"
 
@@ -145,3 +145,4 @@ bool Sampler::process_codes(list<Code*>& codes)
   return true;
 };
 
+#endif

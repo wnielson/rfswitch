@@ -3,7 +3,9 @@
  *  @author Weston Nielson <wnielson@github>
  *
  */
+#ifdef HAVE_PORTAUDIO_H
 #include "config.h"
+
 #include <cstdlib>
 #include <cstdio>
 #include <cmath>
@@ -11,7 +13,6 @@
 #include <map>
 #include <signal.h>
 
-#ifdef HAVE_PORTAUDIO_H
 #include <portaudio.h>
 
 #include "Sampler.h"
@@ -168,12 +169,6 @@ int run_record(int argc, char **argv) {
   };
   
 	return 0;
-}
-
-#else
-
-int run_record(int argc, char **argv) {
-  printf("Portaudio disabled\n");
-}
+};
 
 #endif
