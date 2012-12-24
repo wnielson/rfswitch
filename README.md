@@ -102,3 +102,10 @@ In this example signal the lengths of the individual signals are:
     lo-long   5
     lo-short  3
     delay     8
+
+
+Credits
+-------
+
+The idea for this project and much of the switching code is thanks to
+Geoff Johnson.
