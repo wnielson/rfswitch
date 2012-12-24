@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA7C453016851BD400882F68 /* libportaudio.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7C452F16851BD400882F68 /* libportaudio.2.dylib */; };
+		EABAB9DF16852C52007E7CC6 /* Code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EABAB9DB16852C52007E7CC6 /* Code.cpp */; };
+		EABAB9E016852C52007E7CC6 /* record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EABAB9DD16852C52007E7CC6 /* record.cpp */; };
+		EABAB9E3168622B4007E7CC6 /* Sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EABAB9E1168622B4007E7CC6 /* Sampler.cpp */; };
+		EADEE8491686790B005329C9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EADEE8481686790B005329C9 /* main.cpp */; };
+		EADEE84E16867F1C005329C9 /* switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EADEE84C16867F1C005329C9 /* switch.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA7C45121685195A00882F68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA7C45141685195A00882F68 /* rfswitch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rfswitch; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7C452F16851BD400882F68 /* libportaudio.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libportaudio.2.dylib; path = ../../../../usr/local/Cellar/portaudio/19.20111121/lib/libportaudio.2.dylib; sourceTree = "<group>"; };
+		EABAB9DB16852C52007E7CC6 /* Code.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Code.cpp; sourceTree = "<group>"; };
+		EABAB9DC16852C52007E7CC6 /* Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Code.h; sourceTree = "<group>"; };
+		EABAB9DD16852C52007E7CC6 /* record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = record.cpp; sourceTree = "<group>"; };
+		EABAB9E1168622B4007E7CC6 /* Sampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sampler.cpp; sourceTree = "<group>"; };
+		EABAB9E2168622B4007E7CC6 /* Sampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sampler.h; sourceTree = "<group>"; };
+		EABAB9E4168675C1007E7CC6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		EADEE8481686790B005329C9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EADEE84B16867961005329C9 /* record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = record.h; sourceTree = "<group>"; };
+		EADEE84C16867F1C005329C9 /* switch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = switch.cpp; sourceTree = "<group>"; };
+		EADEE84D16867F1C005329C9 /* switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch.h; sourceTree = "<group>"; };
+		EADEE84F1687A436005329C9 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7C45111685195A00882F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7C453016851BD400882F68 /* libportaudio.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7C45091685195A00882F68 = {
+			isa = PBXGroup;
+			children = (
+				EA7C452F16851BD400882F68 /* libportaudio.2.dylib */,
+				EABAB9E4168675C1007E7CC6 /* config.h */,
+				EABAB9DA16852C52007E7CC6 /* src */,
+				EA7C45151685195A00882F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7C45151685195A00882F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7C45141685195A00882F68 /* rfswitch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABAB9DA16852C52007E7CC6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EADEE84F1687A436005329C9 /* error.h */,
+				EABAB9DC16852C52007E7CC6 /* Code.h */,
+				EABAB9DB16852C52007E7CC6 /* Code.cpp */,
+				EABAB9E2168622B4007E7CC6 /* Sampler.h */,
+				EABAB9E1168622B4007E7CC6 /* Sampler.cpp */,
+				EADEE84B16867961005329C9 /* record.h */,
+				EABAB9DD16852C52007E7CC6 /* record.cpp */,
+				EADEE84D16867F1C005329C9 /* switch.h */,
+				EADEE84C16867F1C005329C9 /* switch.cpp */,
+				EADEE8481686790B005329C9 /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7C45131685195A00882F68 /* rfswitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7C451E1685195A00882F68 /* Build configuration list for PBXNativeTarget "rfswitch" */;
+			buildPhases = (
+				EA7C45101685195A00882F68 /* Sources */,
+				EA7C45111685195A00882F68 /* Frameworks */,
+				EA7C45121685195A00882F68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rfswitch;
+			productName = rfswitch;
+			productReference = EA7C45141685195A00882F68 /* rfswitch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7C450B1685195A00882F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wnielson;
+			};
+			buildConfigurationList = EA7C450E1685195A00882F68 /* Build configuration list for PBXProject "rfswitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA7C45091685195A00882F68;
+			productRefGroup = EA7C45151685195A00882F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7C45131685195A00882F68 /* rfswitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7C45101685195A00882F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABAB9DF16852C52007E7CC6 /* Code.cpp in Sources */,
+				EABAB9E016852C52007E7CC6 /* record.cpp in Sources */,
+				EABAB9E3168622B4007E7CC6 /* Sampler.cpp in Sources */,
+				EADEE8491686790B005329C9 /* main.cpp in Sources */,
+				EADEE84E16867F1C005329C9 /* switch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA7C451C1685195A00882F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA7C451D1685195A00882F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA7C451F1685195A00882F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/local/Cellar/portaudio/19.20111121/lib,
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA7C45201685195A00882F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/local/Cellar/portaudio/19.20111121/lib,
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7C450E1685195A00882F68 /* Build configuration list for PBXProject "rfswitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7C451C1685195A00882F68 /* Debug */,
+				EA7C451D1685195A00882F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7C451E1685195A00882F68 /* Build configuration list for PBXNativeTarget "rfswitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7C451F1685195A00882F68 /* Debug */,
+				EA7C45201685195A00882F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7C450B1685195A00882F68 /* Project object */;
+}
