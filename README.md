@@ -83,7 +83,7 @@ Example Signal
 Here's an example of a typical (but short) RF signal that might be used
 to control a switch (e.g. turn switch 1 on)::
 
-           0         1         0       0        0 (delay)   code-bit
+           0         1         0       0         (delay)    code-bit
         ├────────┼───────────┼────────┼────────┼─────────┼
      hi ┌──┐     ┌──────┐    ┌──┐     ┌──┐
         │  │     │      │    │  │     │  │
